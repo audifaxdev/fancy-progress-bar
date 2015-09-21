@@ -1,0 +1,56 @@
+[
+	{
+		"skillCategoryName": "Cross-platform programming",
+		"skills": [
+			{"skillName":"C language", "rating": "100"},
+			{"skillName":"C++", "rating": "90"},
+			{"skillName":"C++ STD / STL", "rating": "80"},
+			{"skillName":"C++ Qt", "rating": "70"},
+			{"skillName":"Objective-C", "rating": "60"},
+			{"skillName":"Cocoa", "rating": "50"},
+			{"skillName":"Carbon", "rating": "40"},
+			{"skillName":"UIKit", "rating": "30"},
+			{"skillName":"Win32 API", "rating": "20"},
+			{"skillName":"Linux platform", "rating": "10"},
+			{"skillName":"OSX/iOS platform", "rating": "5"},
+			{"skillName":"Linux ARM platform", "rating": "1"}
+		]
+	},
+	{
+		"skillCategoryName": "System Administration / Devops",
+		"skills": [
+			{"skillName":"GNU Linux", "rating": "50"},
+			{"skillName":"OSX", "rating": "33"},
+			{"skillName":"Window", "rating": "33"},
+			{"skillName":"Docker", "rating": "20"},
+			{"skillName":"AWS", "rating": "20"}
+		]
+	},
+	{
+		"skillCategoryName": "Cross-platform programming",
+		"skills": [
+			{"skillName":"C language", "rating": "100"},
+			{"skillName":"C++", "rating": "90"},
+			{"skillName":"C++ STD / STL", "rating": "80"},
+			{"skillName":"C++ Qt", "rating": "70"},
+			{"skillName":"Objective-C", "rating": "60"},
+			{"skillName":"Cocoa", "rating": "50"},
+			{"skillName":"Carbon", "rating": "40"},
+			{"skillName":"UIKit", "rating": "30"},
+			{"skillName":"Win32 API", "rating": "20"},
+			{"skillName":"Linux platform", "rating": "10"},
+			{"skillName":"OSX/iOS platform", "rating": "5"},
+			{"skillName":"Linux ARM platform", "rating": "1"}
+		]
+	},
+	{
+		"skillCategoryName": "System Administration / Devops",
+		"skills": [
+			{"skillName":"GNU Linux", "rating": "50"},
+			{"skillName":"OSX", "rating": "33"},
+			{"skillName":"Window", "rating": "33"},
+			{"skillName":"Docker", "rating": "20"},
+			{"skillName":"AWS", "rating": "20"}
+		]
+	}
+]

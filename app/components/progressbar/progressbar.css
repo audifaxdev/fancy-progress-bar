@@ -1,0 +1,286 @@
+.container {
+	height: auto;
+	width: auto;
+	position: relative;
+}
+.label {
+	position: absolute;
+	display: inline-block;
+	width: 33%;
+	height: auto;
+	text-align: right;
+}
+.pb {
+	position: relative;
+	left: 33%;
+	display: inline-block;
+	width: 67%;
+	height: 25px;
+	vertical-align: middle;
+
+}
+.pbVal {
+	position: absolute;
+	top: -5px;
+	left: 0;
+	height: 30%;
+	width: 0;
+	transition: width 1s;
+	transition-timing-function: ease-in-out;
+}
+
+.rain {
+	padding: 10px 12px 12px 10px;
+	box-shadow: 8px 8px 8px rgba(0,0,0,1) inset, -9px -9px 8px rgba(0,0,0,1) inset;
+}
+
+.border{
+	padding: 1px;
+	border-radius: 5px;
+}
+.rain,
+.border {
+	background-image: -webkit-gradient(
+		linear, left top, right top,
+		color-stop(0%,rgba(0,0,0,.25)),
+		color-stop(11.5%,rgba(0,0,0,.1)),
+		color-stop(20%,rgba(255,231,87,.1)),
+		color-stop(30.5%,rgba(255,231,87,.3)),
+		color-stop(35%,rgba(255,231,87,.1)),
+		color-stop(40%,rgba(0,0,0,.1)),
+		color-stop(50%,rgba(0,0,0,.25)),
+		color-stop(61.5%,rgba(0,0,0,.1)),
+		color-stop(70%,rgba(255,231,87,.1)),
+		color-stop(80.5%,rgba(255,231,87,.3)),
+		color-stop(85%,rgba(255,231,87,.1)),
+		color-stop(90%,rgba(0,0,0,.1)),
+		color-stop(100%,rgba(0,0,0,.25))
+	);
+
+	background-image: linear-gradient(
+		to right,
+		rgba(0,0,0,.25) 0%,
+		rgba(0,0,0,.1) 11.5%,
+		rgba(255,231,87) 20%,
+		rgba(255,231,87,.3) 30.5%,
+		rgba(255,231,87,.1) 35%,
+		rgba(0,0,0,.1) 40%,
+		rgba(0,0,0,.25) 50%,
+		rgba(0,0,0,.1) 61.5%,
+		rgba(255,231,87,.1) 70%,
+		rgba(255,231,87,.3) 80.5%,
+		rgba(255,231,87,.1) 85%,
+		rgba(0,0,0,.1) 90%,
+		rgba(0,0,0,.25) 100%
+	);
+	background-size: 200% auto; */
+}
+
+.inner{
+	background: #212121;
+	border-radius: 5px;
+	height: 100%;
+	width: 100%;
+	background: -moz-radial-gradient(50% 46% 90deg,circle closest-corner, #242424, #090909);
+	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 150, from(#242424), to(#090909));
+}
+
+.colors0_20 {
+	animation:colors0_20 20s linear infinite normal;
+	-webkit-animation:colors0_20 20s linear infinite normal;
+}
+
+@keyframes colors0_20 {
+	0% {
+		background-color: #44F262;
+		background-position: 0px 0px;
+	}
+	95% {background-color: #39f;}
+	100% {
+		background-color: #44F262;
+		background-position: -1000% 0;
+	}
+}
+
+@-webkit-keyframes colors0_20 {
+	0% {
+		background-color: #44F262;
+		background-position: 0px 0px;
+	}
+	95% {background-color: #39f;}
+	100% {
+		background-color: #44F262;
+		background-position: -1000% 0;
+	}
+}
+
+.colors0_36 {
+	animation:colors0_36 20s linear infinite normal;
+	-webkit-animation:colors0_36 20s linear infinite normal;
+}
+
+@keyframes colors0_36 {
+	0% {
+		background-color: #44F262;
+		background-position: 0px 0px;
+	}
+	50% {background-color: #39f;}
+	95% {background-color: #8733ff;}
+	100% {
+		background-color: #44F262;
+		background-position: -1000% 0;
+	}
+}
+
+@-webkit-keyframes colors0_36 {
+	0% {
+		background-color: #44F262;
+		background-position: 0px 0px;
+	}
+	50% {background-color: #39f;}
+	95% {background-color: #8733ff;}
+	100% {
+		background-color: #44F262;
+		background-position: -1000% 0;
+	}
+}
+
+.colors0_52 {
+	animation:colors0_52 20s linear infinite normal;
+	-webkit-animation:colors0_52 20s linear infinite normal;
+}
+
+@keyframes colors0_52 {
+	0% {
+		background-color: #44F262;
+		background-position: 0px 0px;
+	}
+	33% {background-color: #39f;}
+	67% {background-color: #8733ff;}
+	95% {background-color: #ff33d2;}
+	100% {
+		background-color: #44F262;
+		background-position: -1000% 0;
+	}
+}
+@-webkit-keyframes colors0_52 {
+	0% {
+		background-color: #44F262;
+		background-position: 0px 0px;
+	}
+	33% {background-color: #39f;}
+	67% {background-color: #8733ff;}
+	95% {background-color: #ff33d2;}
+	100% {
+		background-color: #44F262;
+		background-position: -1000% 0;
+	}
+}
+
+.colors0_68 {
+	animation:colors0_68 20s linear infinite normal;
+	-webkit-animation:colors0_68 20s linear infinite normal;
+}
+
+@keyframes colors0_68 {
+	0% {
+		background-color: #44F262;
+		background-position: 0px 0px;
+	}
+	25% {background-color: #39f;}
+	50% {background-color: #8733ff;}
+	75% {background-color: #ff33d2;}
+	95% {background-color: #ff3333;}
+	100% {
+		background-color: #44F262;
+		background-position: -1000% 0;
+	}
+}
+@-webkit-keyframes colors0_68 {
+	0% {
+		background-color: #44F262;
+		background-position: 0px 0px;
+	}
+	25% {background-color: #39f;}
+	50% {background-color: #8733ff;}
+	75% {background-color: #ff33d2;}
+	95% {background-color: #ff3333;}
+	100% {
+		background-color: #44F262;
+		background-position: -1000% 0;
+	}
+}
+
+.colors0_84 {
+	animation:colors0_84 20s linear infinite normal;
+	-webkit-animation:colors0_84 20s linear infinite normal;
+}
+
+@keyframes colors0_84 {
+	0% {
+		background-color: #44F262;
+		background-position: 0px 0px;
+	}
+	20% {background-color: #39f;}
+	40% {background-color: #8733ff;}
+	60% {background-color: #ff33d2;}
+	80% {background-color: #ff3333;}
+	95% {background-color: #ffa133;}
+	100% {
+		background-color: #44F262;
+		background-position: -1000% 0;
+	}
+}
+@-webkit-keyframes colors0_84 {
+	0% {
+		background-color: #44F262;
+		background-position: 0px 0px;
+	}
+	20% {background-color: #39f;}
+	40% {background-color: #8733ff;}
+	60% {background-color: #ff33d2;}
+	80% {background-color: #ff3333;}
+	95% {background-color: #ffa133;}
+	100% {
+		background-color: #44F262;
+		background-position: -1000% 0;
+	}
+}
+
+.colors0_100 {
+	animation:colors0_100 20s linear infinite normal;
+	-webkit-animation:colors0_100 20s linear infinite normal;
+}
+
+@keyframes colors0_100 {
+	0% {
+		background-color: #44F262;
+		background-position: 0px 0px;
+	}
+	20% {background-color: #39f;}
+	36% {background-color: #8733ff;}
+	52% {background-color: #ff33d2;}
+	68% {background-color: #ff3333;}
+	84% {background-color: #ffa133;}
+	95% {background-color: #fbff33;}
+	100% {
+		background-color: #44F262;
+		background-position: -1000% 0;
+	}
+}
+@-webkit-keyframes colors0_100 {
+	0% {
+		background-color: #44F262;
+		background-position: 0px 0px;
+	}
+	20% {background-color: #39f;}
+	36% {background-color: #8733ff;}
+	52% {background-color: #ff33d2;}
+	68% {background-color: #ff3333;}
+	84% {background-color: #ffa133;}
+	95% {background-color: #fbff33;}
+	100% {
+		background-color: #44F262;
+		background-position: -1000% 0;
+	}
+}

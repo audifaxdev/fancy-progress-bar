@@ -1,0 +1,15 @@
+{
+  "name": "skill-rating-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "0",
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.37"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

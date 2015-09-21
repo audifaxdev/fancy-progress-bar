@@ -1,0 +1,31 @@
+{
+    "version": "1.6.0-beta",
+    "compilerOptions": {
+        "target": "es5",
+        "isolatedModules": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "out": "../libs/main.js"
+    },
+    "filesGlob": [
+        "./main.ts",
+        "./typings/**/*.ts",
+        "!./node_modules/**/*"
+    ],
+    "files": [
+        "./main.ts",
+        "./typings/angular2/angular2.d.ts",
+        "./typings/angular2/http.d.ts",
+        "./typings/angular2/router.d.ts",
+        "./typings/es6-promise/es6-promise.d.ts",
+        "./typings/requirejs/require.d.ts",
+        "./typings/rx/rx-lite.d.ts",
+        "./typings/rx/rx.d.ts"
+    ]
+}

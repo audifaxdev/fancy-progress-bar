@@ -1,0 +1,8 @@
+<div class="skillsContainer">
+<div *ng-for="#skillSet of skills" class="skillSet" [style.width]="flexitemwidth">
+	<h4> {{skillSet.skillCategoryName}} </h4>
+	<div *ng-for="#skill of skillSet.skills">
+		<progressbar [label]="skill.skillName" [rating]="skill.rating"></progressbar>
+	</div>
+</div>
+</div>

@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Hello ng2</title>
+	<style>
+		body {
+			background: black;
+			color:white;
+		}
+	</style>
+	<script src="libs/traceur.min.js"></script>
+	<script src="libs/bootstrap.js"></script>
+	<script src="libs/system.js"></script>
+	<script src="libs/angular2.min.js"></script>
+	<script src="libs/http.min.js"></script>
+	<script src="libs/jquery.min.js"></script>
+</head>
+<body>
+	<app></app>
+	<script>
+		//System.paths['components/*'] = '/transpiled/components/*.js';
+		//System.paths['*'] = ['*.js'];
+		System.import('libs/main.js');
+	</script>
+</body>
+</html>
