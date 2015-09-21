@@ -10,6 +10,21 @@
 	height: auto;
 	text-align: right;
 }
+
+@media (min-width: 800px) {
+	.label {
+
+	}
+}
+
+@media (max-width: 800px) {
+	.label {
+		font-size: 13px;
+		line-height: 13px;
+		padding-top: 3px;
+	}
+}
+
 .pb {
 	position: relative;
 	left: 33%;
@@ -37,6 +52,7 @@
 .border{
 	padding: 1px;
 	border-radius: 5px;
+	height: 100%;
 }
 .rain,
 .border {

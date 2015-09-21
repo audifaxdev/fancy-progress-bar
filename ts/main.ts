@@ -6,7 +6,7 @@
 })
 
 @ng2.View({
-	template: '<skill-rating flexitemwidth="300px"></skill-rating>',
+	template: '<skill-rating></skill-rating>',
 	directives: [SkillRating]
 })
 

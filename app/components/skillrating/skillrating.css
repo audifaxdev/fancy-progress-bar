@@ -3,7 +3,22 @@ display: -webkit-flex;
 -webkit-flex-flow: row wrap;
 -webkit-align-items: stretch;
 }
-
 .skillSet {
 	-webkit-flex: 0 1 auto;
+}
+
+@media (min-width: 800px) {
+	.skillSet {
+		width: 50%;
+	}
+}
+
+@media (max-width: 800px) {
+	.skillSet {
+		width: 100%;
+	}
+}
+
+.skillSet>h4 {
+	text-align: center;
 }

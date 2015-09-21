@@ -4,8 +4,7 @@
 
 @ng2.Component({
 	selector: 'skill-rating',
-	viewBindings: [ng2Http.HTTP_BINDINGS],
-	properties: ['flexitemwidth']
+	viewBindings: [ng2Http.HTTP_BINDINGS]
 })
 
 @ng2.View({

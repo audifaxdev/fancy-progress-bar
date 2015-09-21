@@ -92,8 +92,7 @@ var SkillRating = (function () {
         /// <reference path="../../import.ts" />
         ng2.Component({
             selector: 'skill-rating',
-            viewBindings: [ng2Http.HTTP_BINDINGS],
-            properties: ['flexitemwidth']
+            viewBindings: [ng2Http.HTTP_BINDINGS]
         }),
         ng2.View({
             templateUrl: COMPONENTS_ROOT_PATH + "/skillrating/skillrating.tpl.html",
@@ -116,7 +115,7 @@ var App = (function () {
             selector: 'app'
         }),
         ng2.View({
-            template: '<skill-rating flexitemwidth="300px"></skill-rating>',
+            template: '<skill-rating></skill-rating>',
             directives: [SkillRating]
         }), 
         __metadata('design:paramtypes', [])
