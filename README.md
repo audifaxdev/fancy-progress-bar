@@ -11,4 +11,4 @@ Then import traceur and systemJS manually to app/libs directory
 ./script/buildrun.sh
 
 ##Demo
-http://audifaxdev.net/?page_id=2
+http://audifaxdev.net/about/
