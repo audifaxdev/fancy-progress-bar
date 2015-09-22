@@ -1,14 +1,14 @@
 # skill-rating-component
 Progress-bar-like angular2 component made with TypeScript
 
-#Installation
+##Installation
 npm i
 ./script/configure.sh
 
 Then import traceur and systemJS manually to app/libs directory
 
-#Build and run
+##Build and run
 ./script/buildrun.sh
 
-#Demo
+##Demo
 http://audifaxdev.net/?page_id=2
