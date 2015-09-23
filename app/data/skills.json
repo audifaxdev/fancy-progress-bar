@@ -1,56 +1,103 @@
 [
 	{
-		"skillCategoryName": "Cross-platform programming",
+		"skillCategoryName": "Project Management",
 		"skills": [
-			{"skillName":"C language", "rating": "100"},
-			{"skillName":"C++", "rating": "90"},
-			{"skillName":"C++ STD / STL", "rating": "80"},
-			{"skillName":"C++ Qt", "rating": "70"},
-			{"skillName":"Objective-C", "rating": "60"},
-			{"skillName":"Cocoa", "rating": "50"},
-			{"skillName":"Carbon", "rating": "40"},
-			{"skillName":"UIKit", "rating": "30"},
-			{"skillName":"Win32 API", "rating": "20"},
-			{"skillName":"Linux platform", "rating": "10"},
-			{"skillName":"OSX/iOS platform", "rating": "5"},
-			{"skillName":"Linux ARM platform", "rating": "1"}
+			{"skillName":"Agile / SCRUM", "rating": "65"},
+			{"skillName":"Waterfall", "rating": "55"},
+			{"skillName":"Requirement Analysis", "rating": "65"},
+			{"skillName":"Risk Analysis", "rating": "45"},
+			{"skillName":"Product Demonstration", "rating": "45"}
 		]
 	},
 	{
-		"skillCategoryName": "System Administration / Devops",
+		"skillCategoryName": "Technology Stacks",
 		"skills": [
-			{"skillName":"GNU Linux", "rating": "50"},
-			{"skillName":"OSX", "rating": "33"},
-			{"skillName":"Window", "rating": "33"},
-			{"skillName":"Docker", "rating": "20"},
-			{"skillName":"AWS", "rating": "20"}
+			{"skillName":"C Language", "rating": "55"},
+			{"skillName":"C++ Language", "rating": "65"},
+			{"skillName":"Objective-C", "rating": "45"},
+			{"skillName":"Javascript ES5/ES6", "rating": "65"},
+			{"skillName":"Typescript", "rating": "30"},
+			{"skillName":"NodeJS", "rating": "35"},
+			{"skillName":"PHP", "rating": "65"},
+			{"skillName":"HTML5 / CSS3", "rating": "65"}
 		]
 	},
 	{
-		"skillCategoryName": "Cross-platform programming",
+		"skillCategoryName": "General concepts",
 		"skills": [
-			{"skillName":"C language", "rating": "100"},
-			{"skillName":"C++", "rating": "90"},
-			{"skillName":"C++ STD / STL", "rating": "80"},
-			{"skillName":"C++ Qt", "rating": "70"},
-			{"skillName":"Objective-C", "rating": "60"},
-			{"skillName":"Cocoa", "rating": "50"},
-			{"skillName":"Carbon", "rating": "40"},
-			{"skillName":"UIKit", "rating": "30"},
-			{"skillName":"Win32 API", "rating": "20"},
-			{"skillName":"Linux platform", "rating": "10"},
-			{"skillName":"OSX/iOS platform", "rating": "5"},
-			{"skillName":"Linux ARM platform", "rating": "1"}
+			{"skillName":"Data Modelling", "rating": "75"},
+			{"skillName":"3D Programming", "rating": "55"},
+			{"skillName":"TCP, UDP / IP", "rating": "65"},
+			{"skillName":"OOP Design patterns", "rating": "60"},
+			{"skillName":"User Experience", "rating": "65"}
 		]
 	},
 	{
-		"skillCategoryName": "System Administration / Devops",
+		"skillCategoryName": "C++ Frameworks and libraries",
 		"skills": [
-			{"skillName":"GNU Linux", "rating": "50"},
-			{"skillName":"OSX", "rating": "33"},
-			{"skillName":"Window", "rating": "33"},
-			{"skillName":"Docker", "rating": "20"},
-			{"skillName":"AWS", "rating": "20"}
+			{"skillName":"Standard Library", "rating": "45"},
+			{"skillName":"Standard Template Library", "rating": "45"},
+			{"skillName":"Qt Framework", "rating": "70"},
+			{"skillName":"OpenGL / GLSL", "rating": "50"},
+			{"skillName":"Cocoa / Carbon", "rating": "45"},
+			{"skillName":"UIKit", "rating": "45"},
+			{"skillName":"Win32 API", "rating": "45"},
+			{"skillName":"LibVLC", "rating": "55"},
+			{"skillName":"Gsoap", "rating": "40"},
+			{"skillName":"xalan/xerces Libraries", "rating": "40"}
+
+		]
+	},
+	{
+		"skillCategoryName": "Javascript Frameworks and libraries",
+		"skills": [
+			{"skillName":"AngularJS v1", "rating": "40"},
+			{"skillName":"AngularJS v2", "rating": "40"},
+			{"skillName":"Express", "rating": "30"},
+			{"skillName":"Loopback", "rating": "30"},
+			{"skillName":"JQuery", "rating": "65"},
+			{"skillName":"ThreeJS", "rating": "55"}
+		]
+	},
+	{
+		"skillCategoryName": "PHP Frameworks and libraries",
+		"skills": [
+			{"skillName":"ZEND", "rating": "40"},
+			{"skillName":"Symfony 2", "rating": "50"},
+			{"skillName":"PHP Modules creation", "rating": "55"}
+		]
+	},
+	{
+		"skillCategoryName": "Target Platforms",
+		"skills": [
+			{"skillName":"Linux x86", "rating": "70"},
+			{"skillName":"Linux ARM", "rating": "55"},
+			{"skillName":"OSX", "rating": "70"},
+			{"skillName":"iOS 6+", "rating": "55"},
+			{"skillName":"Windows x86", "rating": "70"},
+			{"skillName":"Windows Phone", "rating": "45"}
+		]
+	},
+	{
+		"skillCategoryName": "System Administration",
+		"skills": [
+			{"skillName":"Linux", "rating": "70"},
+			{"skillName":"Lighttpd", "rating": "70"},
+			{"skillName":"Apache2", "rating": "50"},
+			{"skillName":"MySQL / MariaDB", "rating": "70"},
+			{"skillName":"Sqlite", "rating": "55"},
+			{"skillName":"AWS", "rating": "30"},
+			{"skillName":"Docker", "rating": "35"},
+			{"skillName":"Linux", "rating": "70"}
+		]
+	},
+	{
+		"skillCategoryName": "IDE & Tools",
+		"skills": [
+			{"skillName":"GNU Tools", "rating": "70"},
+			{"skillName":"Git", "rating": "60"},
+			{"skillName":"Qt Creator", "rating": "70"},
+			{"skillName":"Atom / Sublime", "rating": "55"}
 		]
 	}
 ]
