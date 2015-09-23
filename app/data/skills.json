@@ -3,23 +3,23 @@
 		"skillCategoryName": "Project Management",
 		"skills": [
 			{"skillName":"Agile / SCRUM", "rating": "65"},
-			{"skillName":"Waterfall", "rating": "55"},
-			{"skillName":"Requirement Analysis", "rating": "65"},
-			{"skillName":"Risk Analysis", "rating": "45"},
-			{"skillName":"Product Demonstration", "rating": "45"}
+			{"skillName":"Waterfall", "rating": "50"},
+			{"skillName":"Requirement Analysis", "rating": "75"},
+			{"skillName":"Risk Analysis", "rating": "40"},
+			{"skillName":"Product Demonstration", "rating": "35"}
 		]
 	},
 	{
 		"skillCategoryName": "Technology Stacks",
 		"skills": [
-			{"skillName":"C Language", "rating": "55"},
-			{"skillName":"C++ Language", "rating": "65"},
+			{"skillName":"C Language", "rating": "50"},
+			{"skillName":"C++ Language", "rating": "70"},
 			{"skillName":"Objective-C", "rating": "45"},
 			{"skillName":"Javascript ES5/ES6", "rating": "65"},
 			{"skillName":"Typescript", "rating": "30"},
 			{"skillName":"NodeJS", "rating": "35"},
-			{"skillName":"PHP", "rating": "65"},
-			{"skillName":"HTML5 / CSS3", "rating": "65"}
+			{"skillName":"PHP", "rating": "70"},
+			{"skillName":"HTML5 / CSS3", "rating": "60"}
 		]
 	},
 	{
@@ -29,16 +29,16 @@
 			{"skillName":"3D Programming", "rating": "55"},
 			{"skillName":"TCP, UDP / IP", "rating": "65"},
 			{"skillName":"OOP Design patterns", "rating": "60"},
-			{"skillName":"User Experience", "rating": "65"}
+			{"skillName":"User Experience", "rating": "55"}
 		]
 	},
 	{
 		"skillCategoryName": "C++ Frameworks and libraries",
 		"skills": [
-			{"skillName":"Standard Library", "rating": "45"},
-			{"skillName":"Standard Template Library", "rating": "45"},
+			{"skillName":"Standard Library", "rating": "40"},
+			{"skillName":"Standard Template Library", "rating": "50"},
 			{"skillName":"Qt Framework", "rating": "70"},
-			{"skillName":"OpenGL / GLSL", "rating": "50"},
+			{"skillName":"OpenGL / GLSL", "rating": "55"},
 			{"skillName":"Cocoa / Carbon", "rating": "45"},
 			{"skillName":"UIKit", "rating": "45"},
 			{"skillName":"Win32 API", "rating": "45"},
@@ -52,9 +52,9 @@
 		"skillCategoryName": "Javascript Frameworks and libraries",
 		"skills": [
 			{"skillName":"AngularJS v1", "rating": "40"},
-			{"skillName":"AngularJS v2", "rating": "40"},
+			{"skillName":"AngularJS v2", "rating": "45"},
 			{"skillName":"Express", "rating": "30"},
-			{"skillName":"Loopback", "rating": "30"},
+			{"skillName":"Loopback", "rating": "35"},
 			{"skillName":"JQuery", "rating": "65"},
 			{"skillName":"ThreeJS", "rating": "55"}
 		]
@@ -73,22 +73,21 @@
 			{"skillName":"Linux x86", "rating": "70"},
 			{"skillName":"Linux ARM", "rating": "55"},
 			{"skillName":"OSX", "rating": "70"},
-			{"skillName":"iOS 6+", "rating": "55"},
+			{"skillName":"iOS 6+", "rating": "45"},
 			{"skillName":"Windows x86", "rating": "70"},
-			{"skillName":"Windows Phone", "rating": "45"}
+			{"skillName":"Windows Phone", "rating": "35"}
 		]
 	},
 	{
 		"skillCategoryName": "System Administration",
 		"skills": [
 			{"skillName":"Linux", "rating": "70"},
-			{"skillName":"Lighttpd", "rating": "70"},
+			{"skillName":"Lighttpd", "rating": "60"},
 			{"skillName":"Apache2", "rating": "50"},
-			{"skillName":"MySQL / MariaDB", "rating": "70"},
-			{"skillName":"Sqlite", "rating": "55"},
+			{"skillName":"MySQL / MariaDB", "rating": "55"},
+			{"skillName":"Sqlite", "rating": "45"},
 			{"skillName":"AWS", "rating": "30"},
-			{"skillName":"Docker", "rating": "35"},
-			{"skillName":"Linux", "rating": "70"}
+			{"skillName":"Docker", "rating": "35"}
 		]
 	},
 	{
@@ -96,8 +95,8 @@
 		"skills": [
 			{"skillName":"GNU Tools", "rating": "70"},
 			{"skillName":"Git", "rating": "60"},
-			{"skillName":"Qt Creator", "rating": "70"},
-			{"skillName":"Atom / Sublime", "rating": "55"}
+			{"skillName":"Qt Creator", "rating": "75"},
+			{"skillName":"Atom / Sublime", "rating": "50"}
 		]
 	}
 ]
