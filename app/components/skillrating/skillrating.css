@@ -9,7 +9,7 @@ display: -webkit-flex;
 
 @media (min-width: 800px) {
 	.skillSet {
-		width: 50%;
+		width: 100%;
 	}
 }
 

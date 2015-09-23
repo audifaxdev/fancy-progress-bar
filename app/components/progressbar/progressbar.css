@@ -111,7 +111,8 @@
 		background-color: #44F262;
 		background-position: 0px 0px;
 	}
-	95% {background-color: #39f;}
+	10% {background-color: #39f;}
+	90% {background-color: #39f;}
 	100% {
 		background-color: #44F262;
 		background-position: -1000% 0;
@@ -123,7 +124,8 @@
 		background-color: #44F262;
 		background-position: 0px 0px;
 	}
-	95% {background-color: #39f;}
+	10% {background-color: #39f;}
+	90% {background-color: #39f;}
 	100% {
 		background-color: #44F262;
 		background-position: -1000% 0;
@@ -140,8 +142,9 @@
 		background-color: #44F262;
 		background-position: 0px 0px;
 	}
-	50% {background-color: #39f;}
-	95% {background-color: #8733ff;}
+	10% {background-color: #39f;}
+	20% {background-color: #8733ff;}
+	90% {background-color: #8733ff;}
 	100% {
 		background-color: #44F262;
 		background-position: -1000% 0;
@@ -153,8 +156,9 @@
 		background-color: #44F262;
 		background-position: 0px 0px;
 	}
-	50% {background-color: #39f;}
-	95% {background-color: #8733ff;}
+	10% {background-color: #39f;}
+	20% {background-color: #8733ff;}
+	90% {background-color: #8733ff;}
 	100% {
 		background-color: #44F262;
 		background-position: -1000% 0;
@@ -171,9 +175,10 @@
 		background-color: #44F262;
 		background-position: 0px 0px;
 	}
-	33% {background-color: #39f;}
-	67% {background-color: #8733ff;}
-	95% {background-color: #ff33d2;}
+	10% {background-color: #39f;}
+	20% {background-color: #8733ff;}
+	30% {background-color: #ff33d2;}
+	90% {background-color: #ff33d2;}
 	100% {
 		background-color: #44F262;
 		background-position: -1000% 0;
@@ -184,9 +189,10 @@
 		background-color: #44F262;
 		background-position: 0px 0px;
 	}
-	33% {background-color: #39f;}
-	67% {background-color: #8733ff;}
-	95% {background-color: #ff33d2;}
+	10% {background-color: #39f;}
+	20% {background-color: #8733ff;}
+	30% {background-color: #ff33d2;}
+	90% {background-color: #ff33d2;}
 	100% {
 		background-color: #44F262;
 		background-position: -1000% 0;
@@ -203,10 +209,11 @@
 		background-color: #44F262;
 		background-position: 0px 0px;
 	}
-	25% {background-color: #39f;}
-	50% {background-color: #8733ff;}
-	75% {background-color: #ff33d2;}
-	95% {background-color: #ff3333;}
+	10% {background-color: #39f;}
+	20% {background-color: #8733ff;}
+	30% {background-color: #ff33d2;}
+	40% {background-color: #ff3333;}
+	90% {background-color: #ff3333;}
 	100% {
 		background-color: #44F262;
 		background-position: -1000% 0;
@@ -217,10 +224,11 @@
 		background-color: #44F262;
 		background-position: 0px 0px;
 	}
-	25% {background-color: #39f;}
-	50% {background-color: #8733ff;}
-	75% {background-color: #ff33d2;}
-	95% {background-color: #ff3333;}
+	10% {background-color: #39f;}
+	20% {background-color: #8733ff;}
+	30% {background-color: #ff33d2;}
+	40% {background-color: #ff3333;}
+	90% {background-color: #ff3333;}
 	100% {
 		background-color: #44F262;
 		background-position: -1000% 0;
@@ -237,11 +245,12 @@
 		background-color: #44F262;
 		background-position: 0px 0px;
 	}
-	20% {background-color: #39f;}
-	40% {background-color: #8733ff;}
-	60% {background-color: #ff33d2;}
-	80% {background-color: #ff3333;}
-	95% {background-color: #ffa133;}
+	10% {background-color: #39f;}
+	20% {background-color: #8733ff;}
+	30% {background-color: #ff33d2;}
+	40% {background-color: #ff3333;}
+	50% {background-color: #ffa133;}
+	90% {background-color: #ffa133;}
 	100% {
 		background-color: #44F262;
 		background-position: -1000% 0;
@@ -252,11 +261,12 @@
 		background-color: #44F262;
 		background-position: 0px 0px;
 	}
-	20% {background-color: #39f;}
-	40% {background-color: #8733ff;}
-	60% {background-color: #ff33d2;}
-	80% {background-color: #ff3333;}
-	95% {background-color: #ffa133;}
+	10% {background-color: #39f;}
+	20% {background-color: #8733ff;}
+	30% {background-color: #ff33d2;}
+	40% {background-color: #ff3333;}
+	50% {background-color: #ffa133;}
+	90% {background-color: #ffa133;}
 	100% {
 		background-color: #44F262;
 		background-position: -1000% 0;
@@ -273,12 +283,13 @@
 		background-color: #44F262;
 		background-position: 0px 0px;
 	}
-	20% {background-color: #39f;}
-	36% {background-color: #8733ff;}
-	52% {background-color: #ff33d2;}
-	68% {background-color: #ff3333;}
-	84% {background-color: #ffa133;}
-	95% {background-color: #fbff33;}
+	10% {background-color: #39f;}
+	20% {background-color: #8733ff;}
+	30% {background-color: #ff33d2;}
+	40% {background-color: #ff3333;}
+	50% {background-color: #ffa133;}
+	60% {background-color: #fbff33;}
+	90% {background-color: #fbff33;}
 	100% {
 		background-color: #44F262;
 		background-position: -1000% 0;
@@ -289,12 +300,13 @@
 		background-color: #44F262;
 		background-position: 0px 0px;
 	}
-	20% {background-color: #39f;}
-	36% {background-color: #8733ff;}
-	52% {background-color: #ff33d2;}
-	68% {background-color: #ff3333;}
-	84% {background-color: #ffa133;}
-	95% {background-color: #fbff33;}
+	10% {background-color: #39f;}
+	20% {background-color: #8733ff;}
+	30% {background-color: #ff33d2;}
+	40% {background-color: #ff3333;}
+	50% {background-color: #ffa133;}
+	60% {background-color: #fbff33;}
+	90% {background-color: #fbff33;}
 	100% {
 		background-color: #44F262;
 		background-position: -1000% 0;
