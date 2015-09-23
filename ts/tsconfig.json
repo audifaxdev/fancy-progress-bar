@@ -11,7 +11,7 @@
         "noLib": false,
         "preserveConstEnums": true,
         "suppressImplicitAnyIndexErrors": true,
-        "out": "./app/libs/main.js"
+        "out": "../app/libs/main.js"
     },
     "filesGlob": [
         "./main.ts",

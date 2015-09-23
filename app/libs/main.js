@@ -1,8 +1,6 @@
 var ng2 = require('angular2/angular2');
 var ng2Http = require('angular2/http');
 var COMPONENTS_ROOT_PATH = '/components';
-/// <reference path="../../import.ts" />
-/// <reference path="../common.ts" />
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") return Reflect.decorate(decorators, target, key, desc);
     switch (arguments.length) {
@@ -59,7 +57,6 @@ var ProgressBar = (function () {
         }, 200);
     }
     ProgressBar = __decorate([
-        /// <reference path="../../import.ts" />
         ng2.Component({
             selector: 'progressbar',
             properties: ['label', 'rating']
@@ -73,9 +70,6 @@ var ProgressBar = (function () {
     ], ProgressBar);
     return ProgressBar;
 })();
-/// <reference path="../../import.ts" />
-/// <reference path="../common.ts" />
-/// <reference path="../progressbar/progressbar.ts" />
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
@@ -83,13 +77,12 @@ var SkillRating = (function () {
     function SkillRating(http) {
         var _this = this;
         console.log(this);
-        http.get('data/skills.json')
+        http.get('/data/skills.json')
             .toRx()
             .map(function (res) { return res.json(); })
             .subscribe(function (skills) { return _this.skills = skills; });
     }
     SkillRating = __decorate([
-        /// <reference path="../../import.ts" />
         ng2.Component({
             selector: 'skill-rating',
             viewBindings: [ng2Http.HTTP_BINDINGS]
@@ -104,13 +97,10 @@ var SkillRating = (function () {
     ], SkillRating);
     return SkillRating;
 })();
-/// <reference path="./import.ts" />
-/// <reference path="./components/skillrating/skillrating.ts"/>
 var App = (function () {
     function App() {
     }
     App = __decorate([
-        /// <reference path="./import.ts" />
         ng2.Component({
             selector: 'app'
         }),
