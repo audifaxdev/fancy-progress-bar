@@ -17,7 +17,7 @@ class SkillRating {
 	skills: Object;
 	constructor(@ng2.Inject(ng2Http.Http) http: typeof ng2Http.Http) {
 		console.log(this);
-		http.get('data/skills.json')
+		http.get('/data/skills.json')
 		.toRx()
 		.map(res => res.json())
 		.subscribe(skills => this.skills = skills);
