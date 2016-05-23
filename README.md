@@ -1,4 +1,4 @@
-# skill-rating-component
+# Fancy progress bar component
 Progress-bar-like angular2 component made with TypeScript
 
 ##Installation
